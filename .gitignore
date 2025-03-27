@@ -1,1 +1,29 @@
 /books
+
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+*.venv
+.venv
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.sqlite3
+*.mypy_cache/
+*.pytest_cache/
+*.coverage
+.coverage
+*.vscode/
+*.idea/
+*.pyc
+
+# Dev container-specific ignores
+.devcontainer/
+.devcontainer.json
+.devcontainer.local.json
